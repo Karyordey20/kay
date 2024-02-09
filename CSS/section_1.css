@@ -1,0 +1,181 @@
+section{
+    padding: 20px;
+}
+
+.section_1{
+    background-image: linear-gradient(
+        to right,rgb(125, 188, 234) 0%,  
+        rgb(125, 188, 234) 50%,
+        rgb(228, 228, 228) 50%,
+        rgb(228, 228, 228) 100%
+        );
+    border-radius: 15px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-top: 30px;
+    height: 380px;
+    width: 100%;
+    position: relative;
+}
+#package{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+#package img{
+    width: 25px;
+}
+#package p{
+    font-size: .7em;
+    margin-top: 4px;
+}
+.info{
+    font-size: 100%;
+}
+.info h1{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    line-height: 35px;
+    width: 40vw;
+    min-width: 30vw;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.info p{
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 40vw;
+}
+.time_food{
+    width: 19vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    position: 50%;
+   padding-left: 0;
+}
+#package_1,#package_2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 150px;
+    background-color:rgba(65, 65, 106, 0.4) ;
+    border-radius: 10px;
+    justify-content: center;
+}
+#package_1 img, #package_2 img{
+    width: 25px;
+}
+#package_1 p, #package_2 p{
+    font-size: .7em;
+    margin-top: 4px;
+    display: flex;
+    flex-shrink: 0;
+} 
+#package_2,#package_1{
+    height: 27px;
+    padding: 4px;
+    margin-left: 10px;
+}
+#package_1{
+    margin-left: 0;
+}
+#package_2 img{
+    width: 15px;
+    height: 13px;
+    margin-right: 5px;
+}
+#package_1 img{
+    margin-right: 5px;
+}
+#food{
+    position: absolute;
+    right: 20%;
+    left: 60%;
+    top: 0;
+    z-index: 1;
+}
+#food img{
+    width: 380px;
+    
+}
+#zebra{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+}
+#zebra img{
+    width: 500px;
+    height: 400px;
+    margin-right: -51px;
+    margin-top: -30px;
+
+}
+#stamp{
+    position: absolute;
+    right: 590px;
+    left: 44%;
+    top: 20px;
+}
+#stamp img{
+    width: 150px;
+}
+.review{
+    display: flex;
+    flex-direction: row;
+    width: 28vw;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 43px;
+}
+.man_review{
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    align-items: center;
+}
+.man_review img{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+.man_review p{
+    display: flex;
+    flex-shrink: 0;
+}
+.view_recepies{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: 15px;
+    border-radius: 9px;
+    height: 50px;
+    margin-left: 20px;
+    position: relative;
+    width: 150px;
+}
+.view_recepies img{
+    width: 20px;
+    height: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    position: absolute;
+    right: 5px;
+    top: 13px;
+}
+.view_recepies p{
+    color: white;
+    margin-right: 20px;
+    font-size: .8em;
+    display: flex;
+    position: absolute;
+    flex-shrink: 0;
+}

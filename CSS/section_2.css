@@ -1,0 +1,142 @@
+.section_2{
+    margin-top: 50px;
+    padding: 20px;
+}
+.categories_view{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section_2 h1{
+    font-size: 1.6em;
+}
+#categories{
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(125, 188, 234);
+    padding: 8px;
+    border-radius: 7px;
+    margin: 10px;
+    border: none;
+}
+#categories a{
+    text-decoration: none;
+    color: black;
+    font-weight: 650;
+}
+.Categories{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    column-gap: 20px;
+}
+.breakfast,.vegan,.meat,.desert,.lunch,.chocolate{
+    border: none;
+    border-radius: 20px;
+    padding: 10px; 
+    transition: .4s ease-in-out;
+}
+.breakfast:hover{
+    scale: 1.3;
+}
+.vegan:hover{
+    scale: 1.3;
+}
+.meat:hover{
+    scale: 1.3;
+}
+.desert:hover{
+    scale: 1.3;
+}
+.lunch:hover{
+    scale: 1.3;
+}
+.chocolate:hover{
+    scale: 1.3;
+}
+.breakfast img,.vegan img,.meat img,.desert img,.lunch img,.chocolate img{
+   width: 150px;
+   border: none;
+   filter: drop-shadow(7px 8px 6px black);
+}
+.breakfast p,.vegan p,.meat p,.desert p,.lunch p,.chocolate p{
+    font-weight:650 ;
+}
+.breakfast{
+    background-image: linear-gradient(white,rgb(210, 204, 181));
+}
+.vegan{
+    background-image: linear-gradient(white,rgb(103, 165, 103));
+}
+.meat{
+    background-image: linear-gradient(white,rgb(247, 159, 174));
+}
+.desert{
+    background-image: linear-gradient(white,70%,brown);
+}
+.lunch{
+    background-image: linear-gradient(white,70%,rgb(255, 255, 105));
+}
+.chocolate{
+    background-image: linear-gradient(white,70%,rgb(106, 96, 80));
+    
+}
+.lunch img,.meat img,.chocolate img{
+    height: 100px;
+}
+.tasty_recipies{
+   margin-top: 80px;
+   text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 60px;
+}
+.tasty_recipies h1{
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+.tasty_recipies p{
+    font-family: serif;
+}
+.tasty_food{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;text-align: center;
+    column-gap: 20px;
+}
+#burger,#cake,#vangan{
+    position: relative;
+    width: 100%;
+}
+#burger img,#cake img,#vangan img{
+    width:280px;
+    height: 200px;
+    border-radius: 15px;
+
+}
+#burger{
+    position: relative;
+    width: 100%;
+}
+#burger #love,#cake #love,#vangan #love{
+    width: 10px;
+    height: 10px;
+}
+.love{
+    background-color: rgb(233, 239, 233);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 5px;
+    left:20% ;
+
+    filter: grayscale(20%);
+}

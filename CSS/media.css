@@ -1,0 +1,110 @@
+@media (min-width:400px) and (max-width:800px) {
+    .section_1{
+        width: 500px;
+        height: 450px;
+        margin-top: ;
+    }
+
+
+    .info p{
+        font-size: .6em;
+        width: 40vw;
+    }
+    #package_1{
+        width: 170px;
+    }
+    .time_food{
+        width: 37vw;
+    }
+    .review{
+        width: 35vw;
+    }
+    .view_recepies{
+        height: 80px;
+        width: 300px;
+    }
+    .view_recepies p{
+        margin-right: 20px;
+        flex-shrink: 0;
+        top: 37px;
+        justify-content: center;
+        font-size: .7em;
+    }
+    .view_recepies img{
+        right: 40%;
+        top: 13px;
+        margin-bottom: 8px;
+    }
+    .man_review p{
+        font-size: .6em;
+    }
+    #food{
+        position: absolute;
+        right: 20%;
+        left: 50%;
+        top: 40%;
+        z-index: 1;
+    }
+    #food img{
+        width: 230px;
+        
+    }
+    #zebra{
+        position: absolute;
+        top: 0;
+        padding: 0;
+        left: 200px;
+    }
+    #zebra img{
+        width: 250px;
+        height: 500px;
+    }
+    #stamp{
+        position: absolute;
+        right: 590px;
+        left: 44%;
+        top: 20%;
+    }
+    #stamp img{
+        width: 5em;
+    }
+    .Categories{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        align-items: center;
+        text-align: center;
+        padding: 5px;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+    .breakfast,.vegan,.meat,.desert,.lunch,.chocolate{
+        border: none;
+        border-radius: 20px;
+        padding: 10px; 
+    }
+    .breakfast:hover{
+        scale: none;
+    }
+    .vegan:hover{
+        scale: none;
+    }
+    .meat:hover{
+        scale: none;
+    }
+    .desert:hover{
+        scale: none;
+    }
+    .lunch:hover{
+        scale: none;
+    }
+    .chocolate:hover{
+        scale: none;
+    }
+    .tasty_food{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;text-align: center;
+        column-gap: 20px;
+    }
+}
